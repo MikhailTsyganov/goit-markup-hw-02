@@ -1,5 +1,10 @@
 body {
-  background-color: #000;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
 }
 
 /* цвет основного текста #212121
@@ -9,4 +14,36 @@ body {
     акцент #2196F3
     цвет футера и  героя #2F303A
     цвет почты в футере rgba(255, 255, 255, 0.6)
-    фон секции команды #F5F4FA */
+    вторичеый цвет фона #F5F4FA */
+
+/* LOGO */
+
+.logo-first {
+  color: #2196f3;
+}
+
+.logo-second {
+  color: #000000;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* contacts */
+
+.contacts .link {
+  color: #757575;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
