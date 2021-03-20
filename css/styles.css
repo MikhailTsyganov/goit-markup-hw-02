@@ -1,6 +1,12 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+}
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -19,7 +25,7 @@ body {
 /* LOGO */
 
 .logo-first {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 .logo-second {
@@ -29,21 +35,60 @@ body {
 /* site-nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 /* contacts */
 
 .contacts .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent);
+}
+
+/* main */
+
+/* HERO */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  color: #ffffff;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* features */
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
 }
